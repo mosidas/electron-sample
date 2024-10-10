@@ -1,8 +1,8 @@
-import Versions from "./components/Versions";
-import electronLogo from "./assets/electron.svg";
+import Versions from "./components/Versions"
+import electronLogo from "./assets/electron.svg"
 
 function App(): JSX.Element {
-  const ipcHandle = (): void => window.electron.ipcRenderer.send("ping");
+  const ipcHandle = (): void => window.electron.ipcRenderer.send("ping")
 
   return (
     <>
@@ -28,7 +28,7 @@ function App(): JSX.Element {
       </div>
       <Versions />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
