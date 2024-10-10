@@ -28,6 +28,8 @@ Done. Now run:
 
 ```bash
 npm i
+npm i @mui/material @emotion/react @emotion/styled @mui/icons-material
+npm i -D electron-builder
 ```
 
 - setup biome
