@@ -30,6 +30,9 @@ Done. Now run:
 npm i
 npm i @mui/material @emotion/react @emotion/styled @mui/icons-material
 npm i -D electron-builder
+npm i react-router-dom
+npm i @types/react-router-dom
+npm i mui-file-input
 ```
 
 - setup biome
@@ -72,3 +75,8 @@ npm run build:mac
 # For Linux
 npm run build:linux
 ```
+
+### ref
+
+- https://qiita.com/murasuke/items/8d405d39dd86be0aa44b
+- https://blog.logrocket.com/authentication-react-router-v6/
