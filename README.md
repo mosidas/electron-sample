@@ -8,6 +8,9 @@ An Electron application with React and TypeScript
 ### Prepare
 - init
 ```bash
+node -v
+v20.18.0
+
 npm create @quick-start/electron
 Need to install the following packages:
 @quick-start/create-electron@1.0.24
@@ -19,7 +22,7 @@ Ok to proceed? (y) y
 ✔ Add TypeScript? … No / Yes
 ✔ Add Electron updater plugin? … No / Yes
 ✔ Enable Electron download mirror proxy? … No / Yes
-Scaffolding project in /Users/shota/repos/electron-sample...
+Scaffolding project in /repos/electron-sample...
 Done. Now run:
   cd electron-sample
   npm install
